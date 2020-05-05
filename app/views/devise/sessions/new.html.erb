@@ -1,4 +1,4 @@
-<section class="hero is-info">
+<section class="hero is-link">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -17,9 +17,9 @@
           <div class="field">
             <%= f.label :email, class: "label" %>
             <p class="control has-icons-left">
-              <%= f.text_field :username, autofocus: true, autocomplete: "username", :placeholder => "username", class: "input" %>
+              <%= f.email_field :email, autofocus: true, autocomplete: "email", :placeholder => "email", class: "input" %>
               <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-envelope"></i>
               </span>
             </p>
           </div>

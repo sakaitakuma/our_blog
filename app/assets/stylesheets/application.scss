@@ -1,13 +1,24 @@
 @import "bulma";
 
 .notice {
-  background-color: yellowgreen;
+  background-color:#38AEF0;
   color: #white;
   text-align: center;
 }
 
 .alert {
-  background-color:yellowgreen;
+  background-color: #F35500;
   color: #white;
   text-align: center;
+}
+
+.profile_image {
+  border-radius: 50%;
+ }
+
+.main-image {
+  height: 100%;
+  background-image: url(sample1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
 }
